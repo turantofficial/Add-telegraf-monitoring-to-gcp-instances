@@ -92,7 +92,7 @@ schema.tagValues(
 )
 ```
 
-set global_tags environment in telegraf.conf:
+**Set global_tags environment in telegraf.conf**:
 
 ```
 [global_tags]
@@ -102,7 +102,7 @@ restart telegraf.
 
 
 
-Further commands:
+**Further commands**:
 ```
 influx auth list --org Jobvector --token $INFLUXDB_TOKEN
 influx config
